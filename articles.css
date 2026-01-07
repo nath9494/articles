@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Meie+Script&family=Pinyon+Script&display=swap");
+h1 {
+   color: red;
+   font-family: "Pinyon Script", cursive;
+   font-size: 1.7em;
+   text-align: left;
+}
+h2 {
+   color: black;
+   font-family: "Meie Script", cursive;
+   font-size: 1.3em;
+   text-align: left;
+   border-bottom: 0.1em solid lightgrey;
+   padding-bottom: 3em;
+}
+body {
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
+   border: 0.5em solid lightgrey;
+   padding: 2%;
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.23);
+   border-radius: 3%;
+}
+p {
+   color: grey;
+   text-align: justify;
+   font-family: "Inconsolata", monospace;
+}
+img {
+   padding: 0.7em 0.7em 2em 0.7em;
+   box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   background-color: white;
+}
+figcaption {
+   color: red;
+   text-align: center;
+   font-family: "Pinyon Script", cursive;
+   font-size: 2em;
+}
+
+strong {
+   font-family: "Pinyon Script", cursive;
+   color: red;
+}
+time {
+   font-family: "Pinyon Script", cursive;
+}
+nav ul {
+   list-style-type: none;
+   color: red;
+   font-family: "Inconsolata", monospace;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px; 
+    
+}
+nav a {
+    text-decoration: none; /* Enlève le soulignement */
+    color: red;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+}
+nav a:hover {
+    background-color: white; /* Changement au survol */
+}
